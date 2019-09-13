@@ -74,7 +74,8 @@ public class Bird : MonoBehaviour
 		gScript.BirdsLeft--;
 		Destroy(gameObject);
 	}
-
+	
+	//Flap birds wings randomly
 	void Flap()
 	{
 		int x = Random.Range(0,2);
